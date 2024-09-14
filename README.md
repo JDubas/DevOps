@@ -16,18 +16,26 @@
 ### Criar Login </br>
 URL: ``http://testeapidubas.azurewebsites.net/logins/`` </br>
 Metodo: ``POST``</br>
-Json: ```Json {
+Json: ``` {
     "Username": "teste.teste",
     "PasswordHash": "teste",
     "Email": "teste.teste@example.com"
       }```
+
+
+
+### Atualizar Login </br>
+URL: ``http://testeapidubas.azurewebsites.net/logins/<login_id>/`` </br>
+Metodo: ``PUT``</br>
+Json: ``` {
+    "Username": "novoTeste.teste",
+    "PasswordHash": "teste",
+    "Email": "Novoteste.teste@example.com"
+      }```
       </br>
 
 
- ### Listar logins </br>
- URL: ``http://testeapidubas.azurewebsites.net/logins/`` </br>
- Metodo: ``GET``
-
- ### Listar logins </br>
- URL: ``http://testeapidubas.azurewebsites.net/logins/`` </br>
-  Metodo: ``GET``
+### Deletar Login </br>
+URL: ``http://testeapidubas.azurewebsites.net/logins/<login_id>/`` </br>
+Metodo: ``DELETE``</br>
+      </br>
