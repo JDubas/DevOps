@@ -46,7 +46,7 @@ Metodo: ``DELETE``</br>
 ### Verificar login </br>
 URL: ``http://testeapidubas.azurewebsites.net/auth/`` </br>
 Metodo: ``PUT``</br>
-Json: ``` {
+Json: ``` 
   {
         "PasswordHash": "Nova_senha",
         "Username": "joao.dubas.atualizado"
