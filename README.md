@@ -1,3 +1,5 @@
+# Video de exemplo de utilizacao
+https://www.youtube.com/watch?v=R-sl3o3Bxf4
 # Requisitos 📜
 ## Criar um Web App,
 - Stack: ``Python``
