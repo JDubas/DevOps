@@ -39,3 +39,21 @@ Json: ``` {
 URL: ``http://testeapidubas.azurewebsites.net/logins/<login_id>/`` </br>
 Metodo: ``DELETE``</br>
       </br>
+
+
+### Verificar login </br>
+URL: ``http://testeapidubas.azurewebsites.net/auth/`` </br>
+Metodo: ``PUT``</br>
+Json: ``` {
+  {
+        "PasswordHash": "Nova_senha",
+        "Username": "joao.dubas.atualizado"
+}```
+      </br>
+
+
+### Tabelas relacionadas </br>
+  URL: ``http://testeapidubas.azurewebsites.net/pedidos_completos/`` </br>
+  Metodo: ``GET``
+
+      
